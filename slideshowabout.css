@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.slideshow{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 623px;
+    animation: animate 16s ease-in-out infinite;
+    background-size: cover;
+}
+@keyframes animate {
+    0%,100%{
+        background-image: url('Picture/papuma1.JPG');
+    }
+    25%{
+        background-image: url('Picture/papuma2.JPG');
+    }
+    50%{
+        background-image: url('Picture/papuma3.JPG');
+    }
+    75%{
+        background-image: url('Picture/papuma4.JPG');
+    }
+}
